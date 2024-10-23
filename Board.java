@@ -4,8 +4,8 @@ class Board{
     public static boolean[][] viewed;  // Set All as Not Viewed
     public static boolean[][] flag;
     public static int flagcount;
-    public static int size = 4;
-    public static int bombcount = 2;
+    public static int size = 8;
+    public static int bombcount = 10;
     public static boolean GAMEENDED = false;
     public Board() {
         board = new char[size][size];
