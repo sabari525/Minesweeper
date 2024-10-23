@@ -104,7 +104,7 @@ class Board{
         if(viewed[row][col]==true)  // Viewed Cell
         {
                 if(board[row][col]==' ')
-                    System.out.println("--------------Empty Space So can't Set flag");
+                    System.out.println("--------------Empty Space So can't Digg");
                 else
                     System.out.println("--------------Already viewed Cell");
                 }
